@@ -605,7 +605,7 @@ function displaymeals() {
   var reviews = document.getElementById("reviews");
 
   image.src = meals[randomNumber].image;
-  image.getAttribute(src) = meals[randomNumber].image;
+
   ratings.innerHTML = `${meals[randomNumber].rating}`;
   reviews.innerHTML = `(${meals[randomNumber].reviews} reviews)`;
   prepTime.innerHTML = `${meals[randomNumber].PrepTime} min`;
@@ -751,4 +751,3 @@ function displaybutton() {
 }
 
 displaymeals();
-
